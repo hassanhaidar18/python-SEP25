@@ -1,0 +1,26 @@
+name = "hassan"
+age = "16"
+f1 = "waterlemon"
+print (f'Hello my name is {name}.' +  f' I am {age} years old,' + f"my fav fruit is {f1}")
+
+print (name.upper())
+print (name.lower())
+print (name[0])
+print (name[-3:]) 
+print (name [0].capitalize() +name[1:])
+print (name.count("a"))
+
+txt = "Python is awsome and fun"
+print (txt.split(" "))
+
+price = 450000
+txt1 =(f"The price is {price*7}")
+print (txt1)
+
+daily_spending = 450000
+weekly_spending = daily_spending*7
+print (f"The weekly spending is {weekly_spending}")
+
+usd_rate = 90000
+weekly_usd = weekly_spending / usd_rate
+print (f"Which is equal to : {weekly_usd:.2f} USD")
